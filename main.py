@@ -75,8 +75,9 @@ teams = ["Brazil", "Germany", "Italy"]
 
 def eliminate_team(teams):
     # Your code here
-    teams.remove("Italy")
-    return teams
+    lastItem = teams.pop()
+
+    return lastItem
     ...
 
 
